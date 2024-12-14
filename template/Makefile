@@ -10,7 +10,7 @@ BIN_DIR = output/bin
 # Source files and object files
 SRC_FILES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_FILES = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
-TARGET = $(BIN_DIR)/my_program
+TARGET = $(BIN_DIR)/main
 
 # Default target
 all: $(TARGET)
